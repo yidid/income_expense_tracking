@@ -1,0 +1,53 @@
+meta(charset="utf-8")
+meta(http-equiv="X-UA-Compatible", content="IE=edge")
+meta(name="keywords", content="admin, dashboard")
+meta(name="author", content="DexignZone")
+meta(name="robots", content="index, follow")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+meta(name="description", content="Dompet : Payment Admin Template")
+meta(property="og:title", content="Dompet : Payment Admin Template")
+meta(property="og:description", content="Dompet : Payment Admin Template")
+meta(property="og:image", content="https://dompet.dexignlab.com/xhtml/social-image.png")
+meta(name="format-detection", content="telephone=no")
+link(rel="shortcut icon", type="image/png", href="images/favicon.png")
+link(href="css/style.css", rel="stylesheet")
+.authincation.h-100
+  .container.h-100
+    .row.justify-content-center.h-100.align-items-center
+      .col-md-6
+        .authincation-content
+          .row.no-gutters
+            .col-xl-10
+              .auth-form
+                .text-center.mb-6
+                  a(href="index.html")
+                    img#logo(src="images/logo.jpg", alt)
+                h4.text-center.mb-4 Sign up your account
+                form(action="index.html")
+                  .mb-3
+                    label.mb-1
+                      strong Username
+                    input.form-control(type="text", placeholder="username")
+                  .mb-3
+                    label.mb-1
+                      strong Email
+                    input.form-control(type="email", placeholder="hello@example.com")
+                  .mb-3
+                    label.mb-1
+                      strong Password
+                    input.form-control(type="password", value="Password")
+                  .text-center.mt-4
+                    button.btn.btn-primary.btn-block(type="submit") Sign me up
+                .new-account.mt-3
+                  p
+                    | Already have an account? 
+                    a.text-primary(href="page-login.html") Sign in
+//
+  **********************************
+  	Scripts
+  ***********************************
+//  Required vendors 
+script(src="vendor/global/global.min.js")
+script(src="js/custom.min.js")
+script(src="js/dlabnav-init.js")
+script(src="js/styleSwitcher.js")
